@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 
 const PrimerComponente = () => {
-    //let nombre = "Diego";
     let web = "diegovargasweb.es";
 
     const[nombre, setNombre] = useState("Diego");

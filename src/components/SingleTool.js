@@ -9,7 +9,7 @@ const SingleTool = () => {
     useEffect(() => {
         const fetchTool = async () => {
             try {
-                const response = await axios.get('http://localhost:4001/tools/1');
+                const response = await axios.get(`http://localhost:4001/tools/${2}`);
                 setTool(response.data);
             } catch (error) {
                 console.error('Error fetching tool:', error);

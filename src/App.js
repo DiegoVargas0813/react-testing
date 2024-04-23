@@ -5,6 +5,7 @@ import SegundoComponente from './components/SegundoComponente';
 import SingleTool from './components/SingleTool';
 import ToolList from './components/ToolsList';
 import Navbar from './components/Navbar';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         
         <SegundoComponente></SegundoComponente>
 
-        <SingleTool></SingleTool>
+        <PostForm></PostForm>
 
       </header>
     </div>
