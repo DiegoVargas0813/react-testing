@@ -6,6 +6,7 @@ import SingleTool from './components/SingleTool';
 import ToolList from './components/ToolsList';
 import Navbar from './components/Navbar';
 import PostForm from './components/PostForm';
+import TagSearch from './components/TagSearch';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <SegundoComponente></SegundoComponente>
 
         <PostForm></PostForm>
+
+        <TagSearch></TagSearch>
 
       </header>
     </div>
